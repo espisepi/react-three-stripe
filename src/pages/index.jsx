@@ -15,6 +15,7 @@ const Page = ({ title }) => {
       <Box r3f route='/box' />
       {/* Step 5 - delete Instructions components */}
       <Instructions />
+      <h1>HOla mundo</h1>
     </>
   )
 }
