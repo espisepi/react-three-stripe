@@ -21,9 +21,9 @@ const Page = ({ title, prices, images }) => {
   useStore.setState({ title })
   return (
     <>
-      <Box r3f route='/box'/>
+      {/* <Box r3f route='/box'/> */}
       <h1>HOla mundo</h1>
-      <Suspense r3f fallback={null}>
+      <Suspense r3f fallback={<Box r3f route='/box'/>}>
         <Planes r3f prices={prices} images={images} />
       </Suspense>
     </>
