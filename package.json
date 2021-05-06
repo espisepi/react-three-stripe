@@ -39,7 +39,8 @@
     "stripe": "^8.145.0",
     "tailwindcss": "^2.1.2",
     "three": "^0.128.0",
-    "three-stdlib": "^2.0.1"
+    "three-stdlib": "^2.0.1",
+    "react-use-cart": "^1.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.17",
